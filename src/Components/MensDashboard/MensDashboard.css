@@ -1,0 +1,39 @@
+/*--------------------------------------- heading images */
+.men_header_container {
+  width: 100%;
+}
+.men_header_container img {
+  width: 100%;
+}
+
+/* --------------------------------------brands container */
+.men_brands_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(246, 246, 246);
+}
+.men_brands_container img {
+  width: 200px;
+}
+
+/* ---------------------------------------categories container */
+.men_cat_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(246, 246, 246);
+}
+.men_cat_container img {
+  width: 150px;
+  cursor: pointer;
+}
+
+/*------------------------------------ dashboard last header */
+.men_header_container2 {
+  width: 100%;
+  margin-top: 50px;
+}
+.men_header_container2 img {
+  width: 100%;
+}

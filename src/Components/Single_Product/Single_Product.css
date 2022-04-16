@@ -1,0 +1,116 @@
+.single_product {
+  height: 350px;
+  width: 200px;
+  background-color: white;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+.single_product .single_img {
+  /* border: 1px solid black; */
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+}
+.single_product .single_img img {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.single_product #name_product {
+  letter-spacing: normal;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  margin-top: 0px;
+}
+.single_product #name2_product {
+  letter-spacing: normal;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0px;
+  margin-top: -10px;
+  /* border: 1px solid black; */
+}
+.single_product h4 {
+  letter-spacing: normal;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 0px;
+  margin-left: 10px;
+  /* border: 1px solid black; */
+}
+.single_product .pricing {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.single_product .pricing h4:nth-child(1) {
+  font-weight: 500;
+}
+.single_product .pricing h4:nth-child(2) {
+  font-weight: 100;
+  font-size: 15px;
+}
+.single_product .pricing h4:nth-child(3) {
+  font-weight: 500;
+  color: rgb(255, 50, 84);
+}
+
+/* -------------------------wishlist button */
+.wishlist_container {
+  /* border: 1px solid black; */
+  margin-top: -40px;
+  width: 100%;
+  height: 40px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  transition: 0.7s;
+  opacity: 0;
+  display: flex;
+}
+.single_product .single_img:hover .wishlist_container {
+  /* background-color: red; */
+  /* display: flex; */
+  animation: slideup_button 1s forwards;
+}
+#wishlist {
+  width: 80%;
+  height: 30px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid gray;
+  cursor: pointer;
+  transition: 0.7s;
+}
+#wishlist:hover {
+  color: rgb(255, 41, 148);
+}
+
+@keyframes slideup_button {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,66 @@
+/* --------------------------------------------heading container */
+.top_heading_path {
+  height: 50px;
+  background-color: rgb(253, 253, 253);
+}
+.top_heading_path h5 {
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 20px;
+}
+.top_heading_path h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0px;
+  margin-left: 18px;
+}
+
+/* -----------------------------------------container main */
+.container_main {
+  display: flex;
+  /* background-color: aquamarine; */
+  /* height: 300px; */
+}
+.left_filters {
+  /* border: 1px solid black; */
+  background-color: rgb(255, 255, 255);
+  /* height: 600px; */
+  width: 25%;
+}
+
+/* ------------------------------------top sorting filtters */
+.right_side {
+  /* border: 1px solid black; */
+  width: 75%;
+}
+.right_side .top_filters {
+  /* border: 1px solid rgb(255, 0, 0); */
+  height: 50px;
+}
+.right_side .top_filters .sorting_div {
+  height: 100%;
+  float: right;
+  margin-right: 10px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.right_side .top_filters .sorting_div label {
+  margin-right: 10px;
+}
+.right_side .top_filters .sorting_div input {
+  height: 60%;
+  outline: none;
+  padding: 5px;
+}
+/* ---------------------------------------------------result loaded in this div */
+.right_side .result_container {
+  /* border: 1px solid rgb(0, 17, 255); */
+  /* height: 1000px; */
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

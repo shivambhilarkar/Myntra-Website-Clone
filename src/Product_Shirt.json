@@ -1,0 +1,167 @@
+{
+    "All_shirts" : [
+
+        {
+            "id" : 1,
+            "title" : "HRX by Hrithik Roshan",
+            "subtitle" : "Men Yellow Printed Cotton Pure Cotton T-shirt",
+            "price" : 500,
+            "rating" : 100,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt1.webp",
+            "sub_images" : [
+                "./Images2/shirt1_sub1.webp",
+                "./Images2/shirt1_sub2.webp",
+                "./Images2/shirt1_sub3.webp",
+                "./Images2/shirt1_sub4.webp"
+            ],
+            "product_details" : "Keep this hip this season with the HRX Men's Athleisure T-shirt. This versatile T-shirt can be styled any way you like for the ultimate gym-to-street look.",
+            "Features" : "Athleisure T-shirt can be paired with tracks, khakis or jeansStyle: Round Neck Sleeve: Short Sleeves Colour: YellowPrint: Typography Fit: Regular"
+        }
+
+        ,
+
+        
+        {
+            "id" : 2,
+            "title" : "Here&Now",
+            "subtitle" : "HERENOW Men Teal Blue Polo Collar Cotton Pure Cotton T-shirt",
+            "price" : 800,
+            "rating" : 90,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt2.webp",
+            "sub_images" : [
+                "./Images2/shirt2_sub1.jpg",
+                "./Images2/shirt2_sub2.jpg",
+                "./Images2/shirt2_sub3.jpg",
+                "./Images2/shirt2_sub4.webp"
+            ],
+            "product_details" : "Teal blue solid T-shirt, has a polo collar, short sleeves, one pocket",
+            "Features" : "Athleisure T-shirt can be paired with tracks, khakis or jeansStyle: Round Neck Sleeve: Short Sleeves Colour: YellowPrint: Typography Fit: Regular"
+        }
+        
+        ,
+
+        {
+            "id" : 3,
+            "title" : "Mast & Harbour",
+            "subtitle" : "Men White & Navy Striped Cotton T-shirt",
+            "price" : 440,
+            "rating" : 80,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt3.webp",
+            "sub_images" : [
+                "./Images2/shirt3_sub1.webp",
+                "./Images2/shirt3_sub2.webp",
+                "./Images2/shirt3_sub3.webp",
+                "./Images2/shirt3_sub4.webp"
+            ],
+            "product_details" : "White and navy blue striped T-shirt, has a round neck, short sleeves",
+            "Features" : "Athleisure T-shirt can be paired with tracks, khakis or jeansStyle: Round Neck Sleeve: Short Sleeves Colour: YellowPrint: Typography Fit: Regular"
+        }
+        ,
+
+        {
+            "id" : 4,
+            "title" : "Roadster",
+            "subtitle" : "Men Navy Blue Striped T-shirt",
+            "price" : 399,
+            "rating" : 50,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt4.webp",
+            "sub_images" : [
+                "./Images2/shirt4_sub1.webp",
+                "./Images2/shirt4_sub2.webp",
+                "./Images2/shirt4_sub3.webp",
+                "./Images2/shirt4_sub4.webp"
+            ],
+            "product_details" : "Navy Blue and white striped T-shirt, has a round neck, short sleeves",
+            "Features" : "Athleisure T-shirt can be paired with tracks, khakis or jeansStyle: Round Neck Sleeve: Short Sleeves Colour: YellowPrint: Typography Fit: Regular"
+        }
+        ,
+
+        {
+            "id" : 5,
+            "title" : "HRX by Hrithik Roshan",
+            "subtitle" : "Men Black Slim Advanced Rapid Dry Raglan T-shirt",
+            "price" : 450,
+            "rating" : 30,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt5.webp",
+            "sub_images" : [
+                "./Images2/shirt5_sub1.jpg",
+                "./Images2/shirt5_sub2.jpg",
+                "./Images2/shirt5_sub3.jpg",
+                "./Images2/shirt5_sub4.jpg"
+            ],
+            "product_details" : "Whether you're playing on the field or cheering in the stadium, the HRX Men's Active T-shirt will give you a look that stands out. That's not all, it'll keep you comfortably cool and dry too.",
+            "Features" : "Active T-shirt for your daily workouts. Advanced Rapid Dry Technology processed at the yarn level wicks sweat & dries fast."
+        }
+
+        ,
+
+        {
+            "id" : 6,
+            "title" : "Nautica",
+            "subtitle" : "Men Blue Solid Polo Collar T-shirt",
+            "price" : 1450,
+            "rating" : 50,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt6.webp",
+            "sub_images" : [
+                "./Images2/shirt6_sub1.webp",
+                "./Images2/shirt6_sub2.webp",
+                "./Images2/shirt6_sub3.webp",
+                "./Images2/shirt6_sub4.webp"
+            ],
+            "product_details" : "Blue solid T-shirt, has a polo collar, and short sleeves",
+            "Features" : "Active T-shirt for your daily workouts. Advanced Rapid Dry Technology processed at the yarn level wicks sweat & dries fast."
+        }
+        
+        ,
+
+        {
+            "id" : 7,
+            "title" : "Status Quo",
+            "subtitle" : "Men Yellow Typography Printed T-shirt",
+            "price" : 1049,
+            "rating" : 50,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt7.webp",
+            "sub_images" : [
+                "./Images2/shirt7_sub1.jpg",
+                "./Images2/shirt7_sub2.jpg",
+                "./Images2/shirt7_sub3.jpg",
+                "./Images2/shirt7_sub4.jpg"
+            ],
+            "product_details" : "Yellow T-shirt for men Typography printed Regular length Round neck Short, regular sleeves Knitted cotton fabric",
+            "Features" : "Active T-shirt for your daily workouts. Advanced Rapid Dry Technology processed at the yarn level wicks sweat & dries fast."
+        }
+        
+        ,
+
+        {
+            "id" : 8,
+            "title" : "Nautica",
+            "subtitle" : "Men Navy Blue White Striped Round Neck Pure Cotton T-shirt",
+            "price" : 1209,
+            "rating" : 50,
+            "description" : "lorem",
+            "img_path": "./Images2/Main_shirt8.webp",
+            "sub_images" : [
+                "./Images2/shirt8_sub1.jpg",
+                "./Images2/shirt8_sub2.jpg",
+                "./Images2/shirt8_sub3.jpg",
+                "./Images2/shirt8_sub4.jpg"
+            ],
+            "product_details" : "Navy Blue and White striped T-shirt, has a round neck, and short sleeves",
+            "Features" : "Active T-shirt for your daily workouts. Advanced Rapid Dry Technology processed at the yarn level wicks sweat & dries fast."
+        }
+
+
+
+
+    ]
+
+
+}

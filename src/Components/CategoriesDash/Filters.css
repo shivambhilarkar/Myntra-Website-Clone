@@ -1,0 +1,221 @@
+/*---------------------------------------- filtter heading */
+.filter_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.filter_header h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px 25px;
+}
+.filter_header .clear_btn {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: rgb(252, 70, 130);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* ----------------------------------------gender catgeroes */
+.gender_filter {
+  box-sizing: border-box;
+  border: 1px solid rgb(185, 185, 185);
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.gender_filter_inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.gender_filter_inner span {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.gender_filter_inner span input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.gender_filter_inner span label {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*----------------------------------------------------------- brand filter */
+.brand_filter {
+  border: 1px solid rgb(185, 185, 185);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.brand_filter h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 10px 20px;
+}
+.brand_filter_inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.brand_filter_inner span {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.brand_filter_inner span input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.brand_filter_inner span label {
+  font-size: 13px;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+/*---------------------------------------------- fliter for prices */
+.price_filter {
+  border: 1px solid rgb(185, 185, 185);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.price_filter h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 10px 20px;
+}
+.price_filter_inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.price_filter_inner span {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.price_filter_inner span input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.price_filter_inner span label {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------color filter */
+.Color_filter {
+  border: 1px solid rgb(185, 185, 185);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.Color_filter h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 10px 20px;
+}
+.Color_filter_inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.Color_filter_inner span {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.Color_filter_inner span input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.Color_filter_inner .color_div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.Color_filter_inner span label {
+  font-size: 13px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/*-------------------------------------- n colors */
+.Color_filter_inner span:nth-child(1) .color_div {
+  background-color: rgb(0, 140, 255);
+}
+.Color_filter_inner span:nth-child(2) .color_div {
+  background-color: rgb(255, 255, 255);
+  border: 0.5px solid gray;
+}
+.Color_filter_inner span:nth-child(3) .color_div {
+  background-color: rgb(0, 60, 255);
+}
+.Color_filter_inner span:nth-child(4) .color_div {
+  background-color: rgb(0, 0, 0);
+}
+.Color_filter_inner span:nth-child(5) .color_div {
+  background-color: rgb(11, 116, 1);
+}
+.Color_filter_inner span:nth-child(6) .color_div {
+  background-color: rgb(95, 95, 95);
+}
+.Color_filter_inner span:nth-child(7) .color_div {
+  background-color: rgb(230, 104, 255);
+}
+/*-------------------------------------------------------- Discount filter */
+.Discount_filter {
+  border: 1px solid rgb(185, 185, 185);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.Discount_filter h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 10px 20px;
+}
+.Discount_filter_inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.Discount_filter_inner span {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.Discount_filter_inner span input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.Discount_filter span label {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ----------------------------------------more heading */
+.more_heading {
+  color: rgb(252, 70, 130);
+  margin: 10px 0px;
+  margin-left: 18%;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}

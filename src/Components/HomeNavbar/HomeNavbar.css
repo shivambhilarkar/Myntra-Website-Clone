@@ -1,0 +1,112 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  user-select: none;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.home_navbar_div {
+  /* border: 1px solid black; */
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 4px 10px rgb(134, 134, 134);
+  margin-bottom: 15px;
+}
+/*  ---------------------left part------------------ */
+.home_navbar_left {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_navbar_left img {
+  height: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* -----------------------middle part------------------ */
+.home_navbar_mid {
+  /* width: 40%; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: -100px;
+}
+.home_navbar_mid ul {
+  display: flex;
+  height: 100%;
+}
+.home_navbar_mid ul li {
+  list-style: none;
+  margin: auto 20px;
+  height: 100%;
+}
+.home_navbar_mid ul li input {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: gray;
+}
+.home_navbar_mid ul li input:hover,
+.home_navbar_mid ul li input:focus {
+  color: red;
+  border-bottom: 4px solid red;
+}
+/* -----------------------right part ---------------------- */
+.home_navbar_right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.home_navbar_right ul {
+  display: flex;
+}
+.home_navbar_right ul li {
+  list-style: none;
+  margin: auto 10px;
+  height: 100%;
+}
+.home_navbar_right ul li input {
+  cursor: pointer;
+  height: 100%;
+  font-size: 13px;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.home_navbar_right ul li #searchspan {
+  background-color: rgb(238, 238, 238);
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.home_navbar_right ul li #searchbar {
+  /* border: 1px solid black; */
+  width: 300px;
+  cursor: text;
+  height: 25px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-transform: none;
+  outline: none;
+}
+
+/* --------------------bag animation class */
